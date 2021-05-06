@@ -1,5 +1,5 @@
 language : java
 sudo: false # faster builds
-script: "mvn-f yazilim_gelistirme_ortam_acalari_dersf2/dersf2/pom.xml clean test verify"
+script: "mvn -f dersf2/pom.xml clean test verify"
 jdk:
    - openjdk8
