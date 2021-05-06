@@ -1,5 +1,0 @@
-language : java
-sudo: false # faster builds
-script: "mvn -f dersf2/pom.xml clean test verify"
-jdk:
-   - openjdk8
